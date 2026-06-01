@@ -104,14 +104,6 @@ Score is calculated **only at the end** from all stored answers — so changing 
 | Google Fonts | Sora + JetBrains Mono |
 
 
-## 📌 Future Improvements
-
-- [ ] Add timer per question
-- [ ] Category-wise filtering
-- [ ] Shuffle questions randomly
-- [ ] Show correct answer after submission
-- [ ] Local storage to save high scores
-
 ---
 
 ## 👨‍💻 Author
