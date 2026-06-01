@@ -88,9 +88,9 @@ Score is calculated **only at the end** from all stored answers — so changing 
 - `typeof null` quirk
 - Loops
 - Type conversion
-- Array methods (`push`, `pop`)
-- Strict equality (`===`)
-- Type coercion (`2 + '3'`)
+- Array methods 
+- Strict equality
+- Type coercion
 
 ---
 
@@ -117,7 +117,7 @@ Score is calculated **only at the end** from all stored answers — so changing 
 ## 👨‍💻 Author
 
 Made with ❤️ by **Harikrishna Alwala**  
-GitHub: [github.com/yourusername](https://github.com/harikrishnaalvala/js-quizz-app)
+GitHub: [https://github.com/harikrishnaalvala/js-quizz-app](https://github.com/harikrishnaalvala/js-quizz-app)
 
 ---
 
