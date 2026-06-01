@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="quiz-wrap" id="quizWrap">
+        <div class="top-bar">
+            <span class="quiz-title">⚡ JavaScript Quiz</span>
+            <span class="q-counter" id="qCounter">1 / 12</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="dot-row" id="dotRow"></div>
+
+        <div class="card" id="quizCard">
+            <div class="card-body">
+                <div class="q-badge">Question <span id="qNum">1</span></div>
+                <h2 id="question">Question Text</h2>
+                <div class="options">
+                    <label class="option-label">
+                        <input type="radio" name="answer" id="a" class="answer" />
+                        <span class="option-letter">A</span>
+                        <span class="option-text" id="a_text">Answer A</span>
+                    </label>
+                    <label class="option-label">
+                        <input type="radio" name="answer" id="b" class="answer" />
+                        <span class="option-letter">B</span>
+                        <span class="option-text" id="b_text">Answer B</span>
+                    </label>
+                    <label class="option-label">
+                        <input type="radio" name="answer" id="c" class="answer" />
+                        <span class="option-letter">C</span>
+                        <span class="option-text" id="c_text">Answer C</span>
+                    </label>
+                    <label class="option-label">
+                        <input type="radio" name="answer" id="d" class="answer" />
+                        <span class="option-letter">D</span>
+                        <span class="option-text" id="d_text">Answer D</span>
+                    </label>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button id="backBtn" disabled>← Back</button>
+                <button id="submit">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
